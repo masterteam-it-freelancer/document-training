@@ -1,0 +1,5 @@
+- Actor Class là 1 object được đặt trong level không thể di chuyển hay nhận điều khiển từ người dùng
+- Pawn Class là một cấp cao hơn của Actor, có thể di chuyển và thực hiện cách hành động
+- Character class là phân cấp cao hơn của Pawn, nó có thể sử dụng Character Component 
+- Ví dụ khi muốn tạo chướng ngại vật thì nên dùng Actor, tạo một vật thể di chuyển đơn giản thì dùng Pawn, còn khi muốn
+sử dụng component character thì dùng Character vì được hổ trợ nhiều.
